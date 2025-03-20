@@ -1,5 +1,3 @@
-## DS 4300 Example - from docs
-
 import ollama
 import redis
 import numpy as np
@@ -7,7 +5,7 @@ from redis.commands.search.query import Query
 import os
 import fitz
 
-# Initialize Redis connection
+
 redis_client = redis.Redis(host="localhost", port=6380, db=0)
 
 VECTOR_DIM = 768
